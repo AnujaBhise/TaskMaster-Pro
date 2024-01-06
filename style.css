@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    background-color: #e5e5e5;
+}
+.app{
+    width: 300px;
+    height: 500px;
+    /* background-color: #716d6d; */
+    /* color: aliceblue; */
+    border: 5px solid #abcea1;
+    border-radius: 12px;
+    padding: 15px;
+
+}
+#addNew {
+    background-color: rgba(171,206,161,0.35);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.fa-plus{
+    background-color: #accea1;
+    border-radius: 12px;
+}
+#tasks{
+    display: grid;
+    gap: 12px;
+}
+#tasks div{
+    background-color: rgba(171,206,161,0.35);
+    border: 3px solid #abcea1;
+    padding: 6px;
+    border-radius: 12px;
+    display: grid;
+    gap: 6px;
+}
+
+.options{
+    justify-self: center;
+    display: flex;
+    gap:18px;
+}
+.options i{
+    cursor: pointer;
+}
