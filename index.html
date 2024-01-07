@@ -17,10 +17,7 @@
         </div>
         <h5 class="text-center my-3">Tasks</h5>
 
-        <!-- Button trigger modal -->
-    <!-- <button type="button" class="btn btn-primary" >
-    Launch demo modal
-    </button> -->
+      
   
   <!-- Modal -->
  <form class="modal fade" id="form" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -33,6 +30,7 @@
         <div class="modal-body">
             <p>Task Title</p>
           <input class="form-control" type="text" name="" id="textInput">
+          <div id="msg"></div>
           <br>
           <p>Due Date</p>
           <input class="form-control" type="date" name="" id="dateInput">
@@ -42,31 +40,14 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-primary">Add Task</button>
+          <button type="submit" id="add" class="btn btn-primary">Add Task</button>
         </div>
       </div>
     </div>
 </form>
 
         <div id="tasks">
-            <div>
-                <span class="fw-bold">Task 1</span>
-                <span class="small text-secondary">2024-07-01</span>
-                <p>Going to complete project </p>
-                <span class="options">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                    <i class="fa-solid fa-trash"></i>
-                </span>
-            </div>
-            <div>
-                <span class="fw-bold">Task 2</span>
-                <span class="small text-secondary">2024-07-01</span>
-                <p>Going to complete project </p>
-                <span class="options">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                    <i class="fa-solid fa-trash"></i>
-                </span>
-            </div>
+        
             
         </div>
     </div>
