@@ -1,17 +1,24 @@
 body{
     font-family: sans-serif;
     background-color: #e5e5e5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .app{
-    width: 300px;
+    width: 450px;
     height: 500px;
     /* background-color: #716d6d; */
     /* color: aliceblue; */
     border: 5px solid #abcea1;
     border-radius: 12px;
     padding: 15px;
+    overflow-y: scroll;
 
 }
+/* .app::-webkit-scrollbar{width: 0 !important}; */
+
 #addNew {
     background-color: rgba(171,206,161,0.35);
     display: flex;
@@ -45,4 +52,8 @@ body{
 }
 .options i{
     cursor: pointer;
+}
+
+#msg{
+    color:red;
 }
